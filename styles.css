@@ -1,0 +1,316 @@
+body {
+  background-color: #fafafa;
+}
+
+.container-top {
+  display: flex;
+  width: 100%;
+  height: 54px;
+  border: 1px 0px 0px 0px;
+  border: 1px solid #dbdbdb;
+  background-color: #ffffff;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.insta-logo {
+  width: 103px;
+  height: 29px;
+  margin-left: 39px;
+}
+.icones {
+  margin-right: 39px;
+}
+.aviao {
+  width: 22px;
+  height: 22px;
+}
+.bussola {
+  width: 22px;
+  height: 22px;
+}
+.pessoa {
+  width: 22px;
+  height: 22px;
+}
+.coracao {
+  width: 22px;
+  height: 22px;
+}
+.esquerda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.caixa-storie {
+  display: flex;
+  width: 614px;
+  height: 118px;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  margin-top: 88px;
+  margin-bottom: 24px;
+}
+.stories {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+
+.storie {
+  width: 56px;
+  height: 56px;
+}
+.storie-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 24px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.posts {
+  display: flex;
+  gap: 60px;
+  flex-direction: column;
+}
+.icone {
+  padding-inline: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+}
+.icons {
+  display: flex;
+  gap: 14px;
+}
+
+.iten1 {
+  height: 22px;
+  width: 22px;
+}
+.iten2 {
+  height: 20px;
+  width: 20px;
+}
+.iten3 {
+  height: 20px;
+  width: 20px;
+}
+.iten4 {
+  height: 20px;
+  width: 20px;
+}
+
+.imagem-post {
+  width: 100%;
+  height: 612px;
+}
+
+.post {
+  display: flex;
+  width: 614px;
+  height: 717px;
+  border: 1px solid #dbdbdb;
+
+  flex-direction: column;
+}
+
+.titulo-post-box {
+  height: 61px;
+  display: flex;
+  padding-left: 17px;
+  gap: 15px;
+  align-items: center;
+}
+
+.perfil-post {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+}
+
+.texto-post {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+}
+
+.direita {
+  margin-top: 88px;
+  margin-left: 29px;
+}
+.foto-perfil {
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  margin-top: 23px;
+}
+
+.nome-perfil {
+  margin-left: 17px;
+}
+
+.diva {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  text-align: left;
+  color: #00000;
+}
+
+.apelido {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.41px;
+  text-align: left;
+  color: #8e8e8e;
+}
+
+.sugestoes {
+  width: 117px;
+  height: 15px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.06px;
+  text-align: left;
+  color: #8e8e8e;
+  margin-top: 24px;
+}
+
+.perfis {
+  display: flex;
+  flex-direction: column;
+}
+
+.imagem {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.perfil-direita {
+  display: flex;
+}
+
+.perfil-direita img {
+  margin-top: 17px;
+  align-items: center;
+}
+
+.perfil-direita p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-top: 26px;
+  width: 126px;
+  height: 14px;
+}
+
+.texto {
+  display: flex;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.06px;
+  color: #139ef2;
+  margin-left: 87px;
+}
+
+.config {
+  margin-top: 33px;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 12.89px;
+  color: #c7c7c7;
+  width: 300px;
+}
+
+.fundado {
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 12.89px;
+  text-align: left;
+  color: #c7c7c7;
+  margin-top: 16px;
+}
+
+.rodape {
+  display: none;
+  height: 54px;
+  bottom: 0;
+  left: 0;
+  border: 1px solid #dbdbdb;
+  position: fixed;
+  background-color: #ffffff;
+  align-items: center;
+}
+
+@media (max-width: 935px) {
+  .container-top {
+    justify-content: space-between;
+  }
+
+  .direita {
+    display: none;
+  }
+}
+
+@media (max-width: 614px) {
+  .icones {
+    display: none;
+  }
+  .container-top {
+    justify-content: center;
+  }
+  .insta-logo {
+    margin-left: 0;
+  }
+  .post {
+    width: 100vw;
+  }
+  .caixa-storie {
+    width: 100vw;
+    margin-top: 50px;
+    background-color: #fafafa;
+    margin-bottom: 0;
+  }
+  .rodape {
+    width: 100vw;
+    display: flex;
+  }
+  .esquerda {
+    margin-bottom: 54px;
+  }
+  .icones-rodape {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+}
